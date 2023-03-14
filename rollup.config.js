@@ -23,13 +23,16 @@ export default {
             ecma: 2020,
             module: true,
             warnings: true,
+            format:{
+                comments: false,
+            }
         }),
         // Print bundle summary
         summary(),
         // Optional: copy any static assets to build directory
-        copy({
-            patterns: ['images/**/*'],
-        }),
+        // copy({
+        //     patterns: ['images/**/*'],
+        // }),
     ],
     output: {
         dir: 'build',

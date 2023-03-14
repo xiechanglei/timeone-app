@@ -18,5 +18,5 @@ export class SimpleGreeting extends LitElement {
 }
 
 let test = new SimpleGreeting();
-test.name = "test";
+test.name = "test1222";
 document.body.appendChild(test);
